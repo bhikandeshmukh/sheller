@@ -1,9 +1,13 @@
 ENCRYPT OR DECRYPT SHELL SCRIPT  
 
- $ pkg install nodejs  
+ $ pkg install nodejs
+ 
  $ npm install -g bash-obfuscate 
+ 
  $ git clone https://github.com/thebhikandeshmukh/sheller.git
+ 
  $ cd sheller  
+ 
  $ python2 bash.py   
 
 Create file in directory  
