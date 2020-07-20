@@ -1,4 +1,4 @@
-# author : @Syhrularv_
+# author : @thebhikandeshmukh
 # -*- coding: utf-8 -*-
 
 import os
@@ -21,7 +21,7 @@ eror = R + '[' + W + '!' + R + ']'
 banner = """
 {}         _nnnn_{}        _________________
 {}        dGGGGMMb{}      |                 |
-{}       @p~qp~~qMb{}   ._| {}Bash sheller {}|
+{}       @p~qp~~qMb{}   ._| {}Bash sheller {}   |
 {}       M{}({}@{})({}@{}) {}M|{}  /  |_________________|
 {}       @,{}----.{}JM|{}_/
 {}      JS^{}\__/{}  qKL
