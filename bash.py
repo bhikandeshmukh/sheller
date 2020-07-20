@@ -21,7 +21,7 @@ eror = R + '[' + W + '!' + R + ']'
 banner = """
 {}         _nnnn_{}        _________________
 {}        dGGGGMMb{}      |                 |
-{}       @p~qp~~qMb{}   ._| {}Bash sheller {}   |
+{}       @p~qp~~qMb{}   ._| {} sheller {}       |
 {}       M{}({}@{})({}@{}) {}M|{}  /  |_________________|
 {}       @,{}----.{}JM|{}_/
 {}      JS^{}\__/{}  qKL
@@ -29,7 +29,7 @@ banner = """
     dZP          qKKb
    fZP            SMMb
    HZM            MMMM    {}Coded by {}: {}BHIKAN DESHMUKH
-{}   FqM            MMMM    {}FB       {}: {}fb.com/thebhikandeshmukh
+{}   FqM            MMMM  {}Insta  {}: {}@thebhikandeshmukh
 {} __|'\ .        |\{}dS qML
 {} |    `.       | `' \{}Zq
 {}_)      \.{}___.{},|     .'
