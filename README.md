@@ -16,4 +16,10 @@ ENCRYPT NOW
 Give output file name 
 For move encrypted file 
 
- $ mv filename -t /sdcard  Done
+ $ mv filename -t /sdcard  
+
+Contact on instagram @thebhikandeshmukh
+
+DONE 😃 
+
+
