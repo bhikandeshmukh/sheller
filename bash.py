@@ -29,7 +29,7 @@ banner = """
     dZP          qKKb
    fZP            SMMb
    HZM            MMMM    {}Coded by {}: {}BHIKAN DESHMUKH
-{}   FqM            MMMM    {}Insta     {}: {}@thebhikandeshmukh
+{}   FqM            MMMM    {}Insta    {}: {}@thebhikandeshmukh
 {} __|'\ .        |\{}dS qML
 {} |    `.       | `' \{}Zq
 {}_)      \.{}___.{},|     .'
