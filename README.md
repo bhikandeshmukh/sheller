@@ -28,9 +28,7 @@
 ```
  $ mv filename -t /sdcard  
 ```
-<p align="center">
-### connect with me
-</p>
+<h2 align="center">SUPPORT</h2>
 <p align="center">
 <a href="https://t.me/dev_aladdin"><img title="Telegram" src="https://img.shields.io/badge/Telegram-black?style=for-the-badge&logo=Telegram"></a>
 <a href="https://wa.me/918600525401"><img title="whatsapp" src="https://img.shields.io/badge/WHATSAPP-%2325D366.svg?&style=for-the-badge&logo=whatsapp&logoColor=white"></a>
