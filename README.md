@@ -1,31 +1,35 @@
-ENCRYPT OR DECRYPT SHELL SCRIPT  
+### ENCRYPT OR DECRYPT SHELL SCRIPT  
 
+```
  $ pkg install nodejs
  
  $ npm install -g bash-obfuscate 
  
- $ git clone https://github.com/thebhikandeshmukh/sheller.git
+ $ git clone https://github.com/bhikandeshmukh/sheller.git
  
  $ cd sheller  
  
  $ python2 bash.py   
+```
 
-Create file in directory  
+* Create file in directory  
 
+```
  $ Nano test.sh  
+```
 
-Button ctrl-> x -> y 
+* Button ctrl-> x -> y 
 
-ENCRYPT NOW  
+* ENCRYPT NOW  
 
-Give output file name 
+* Give output file name 
 
-For move encrypted file 
-
+* For move encrypted file 
+```
  $ mv filename -t /sdcard  
-
+```
 Contact on instagram @thebhikandeshmukh
 
-DONE 😃 
+DONE
 
 
