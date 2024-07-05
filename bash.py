@@ -2,8 +2,6 @@
 # -*- coding: utf-8 -*-
 
 import os
-import sys
-import fileinput
 
 N = '\033[0m'
 D = '\033[90m'
@@ -23,7 +21,7 @@ banner = """
 {}        dGGGGMMb{}      |                 |
 {}       @p~qp~~qMb{}   ._| {} sheller {}       |
 {}       M{}({}@{})({}@{}) {}M|{}  /  |_________________|
-{}       @,{}----.{}JM|{}_/
+{}       @,{}----.{}JM|{}_/ 
 {}      JS^{}\__/{}  qKL
      dZP        qKRb
     dZP          qKKb
@@ -35,57 +33,54 @@ banner = """
 {}_)      \.{}___.{},|     .'
 \____   ){}MMMMMP{}|   .'
      `-'       `--'
-""".format(D,W,D,W,D,W,Y,W,D,W,D,W,D,W,D,W,D,Y,D,W,D,Y,D,G,W,G,D,G,W,G,Y,D,Y,D,Y,D,Y,D,Y)
+""".format(D, W, D, W, D, W, Y, W, D, W, D, W, D, W, D, Y, D, W, D, Y, D, G, W, G, D, G, W, G, Y, D, Y, D, Y, D, Y, D, Y, D, Y, D, Y, D, Y)
 
 banner2 = """
-   {}[{}1{}]{} Encript      {}[{}2{}]{} Decrypt
-""".format(G,W,G,W,G,W,G,W)
+   {}[{}1{}]{} Encrypt      {}[{}2{}]{} Decrypt
+""".format(G, W, G, W, G, W, G, W)
 
-print banner
-print banner2
+print(banner)
+print(banner2)
 
 def dekrip():
-   try:
-       sc = raw_input(ask + W + "Script " + G + "> " + W)
-       f = open(sc,'r')
-       filedata = f.read()
-       f.close()
+    try:
+        sc = input(ask + W + "Script " + G + "> " + W)
+        with open(sc, 'r') as f:
+            filedata = f.read()
 
-       newdata = filedata.replace("eval","echo")
+        newdata = filedata.replace("eval", "echo")
 
-       out = raw_input(ask + W + "Output" + G + " > " + W)
-       f = open(out,'w')
-       f.write(newdata)
-       f.close()
+        out = input(ask + W + "Output" + G + " > " + W)
+        with open(out, 'w') as f:
+            f.write(newdata)
 
-       os.system("touch tes.sh")
-       os.system("bash " + out + " > tes.sh")
-       os.remove(out)
-       os.system("mv -f tes.sh " + out)
-       print (sukses + "Done..")
+        os.system("touch tes.sh")
+        os.system("bash " + out + " > tes.sh")
+        os.remove(out)
+        os.system("mv -f tes.sh " + out)
+        print(sukses + "Done..")
 
-   except KeyboardInterrupt:
-       print (eror + " Stopped!")
-   except IOError:
-       print (eror + " File Not Found!")
+    except KeyboardInterrupt:
+        print(eror + " Stopped!")
+    except IOError:
+        print(eror + " File Not Found!")
 
 def enkrip():
-   try:
-       script = raw_input(ask + W + "Script " + G + "> " + W)
-       output = raw_input(ask + W + "Output " + G + "> " + W)
-       os.system("bash-obfuscate " + script + " -o " + output )
-       print (sukses + "Done..")
-   except KeyboardInterrupt:
-       print (eror + " Stopped!")
-   except IOError:
-       print (eror + " File Not Found!")
+    try:
+        script = input(ask + W + "Script " + G + "> " + W)
+        output = input(ask + W + "Output " + G + "> " + W)
+        os.system("bash-obfuscate " + script + " -o " + output)
+        print(sukses + "Done..")
+    except KeyboardInterrupt:
+        print(eror + " Stopped!")
+    except IOError:
+        print(eror + " File Not Found!")
 
-
-takok = raw_input(W + "Choose" + G + " > ")
+takok = input(W + "Choose" + G + " > ")
 
 if takok == "1" or takok == "01":
-   enkrip()
+    enkrip()
 elif takok == "2" or takok == "02":
-   dekrip()
+    dekrip()
 else:
-   print (eror + " Wrong input")
+    print(eror + " Wrong input")
