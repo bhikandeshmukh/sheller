@@ -9,7 +9,7 @@
  
  $ cd sheller  
  
- $ python2 bash.py   
+ $ python3 bash.py   
 ```
 
 * Create file in directory  
